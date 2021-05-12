@@ -41,5 +41,9 @@ export default {
     babel: {
       compact: true
     }
+  },
+  
+  generate: {
+    dir: 'public'
   }
 }
