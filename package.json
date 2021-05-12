@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt -p 8282",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "nuxt start -p 8282",
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "amqplib": "^0.7.1",
+    "bad-words": "^3.0.4",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "nuxt": "^2.15.3",
+    "path": "^0.12.7",
+    "serverless-mysql": "^1.5.4"
   },
   "devDependencies": {}
 }

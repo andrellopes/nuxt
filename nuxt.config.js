@@ -14,6 +14,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  serverMiddleware: {
+    '/api': '~/api'
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -40,9 +43,6 @@ export default {
   build: {
     babel: {
       compact: true
-    },
-    generate: {
-      dir: 'public'
-    }    
+    }
   }
 }
