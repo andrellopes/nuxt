@@ -40,10 +40,9 @@ export default {
   build: {
     babel: {
       compact: true
-    }
-  },
-  
-  generate: {
-    dir: 'public'
+    },
+    generate: {
+      dir: 'public'
+    }    
   }
 }
